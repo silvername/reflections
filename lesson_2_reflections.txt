@@ -1,0 +1,3 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+Initiallizing a repository is needed in order to create the .git folder which will hold the metadata of all the commits. Through this, the benefits of having version control will be achieved
