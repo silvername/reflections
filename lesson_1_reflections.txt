@@ -1,0 +1,37 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The command diff directly pointed out which parts of the code had a difference compared to its previous version. This way, I did not need to look over every single one of the lines in the code.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Two main factors. First of which is having back up copies of previous works allows one to be able to look back, compare and have a safety net for when something wrong happens. Second would be having the baseline for future use.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+PROS: 
+1. You know when there are logical changes. 
+2. History won't be cluttered.
+Cons:
+1. Uncertain events like machine crash may cause one to lose current work
+2. Solutions applied and changes over the duration may not be noted
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Other version control systems take into concept that most files are independent and does not incur changes that would affect multiple files at the same time. On the other hand, a VC like GIT takes into consideration the correlation of files in a repository and thus ensures that dependent cases are addresed by tracking multiple files.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+Git log is used to list previous commits with their corresponding history and a description of what has been commited. Once the specific description is taken know of, the programmer can then see whether, thru git diff, changes were done accordingly.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+It allows for flexibility when trying out solutions. Through version control, there will always be a working copy of the system and thus total failure maybe avoided.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+I'd like to try it out on an actual project, a POS maybe.
+
+
+
+
+
