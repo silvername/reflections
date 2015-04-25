@@ -13,3 +13,7 @@ It will allow one to be selective of what to commit as well as check whether the
 4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branching would be good for when a big change will be made, a new feature will be added or for when a setup is to be tested. The branch would allow for an intact copy of the original one while being able to track the commits for both the new and the other versions.
+
+5. How do the diagrams help you visualize the branch structure?
+
+This helps in seeing the reachability of all the commits as well astracking the position of the branches where changes could have been made.
