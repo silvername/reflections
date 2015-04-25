@@ -21,3 +21,8 @@ This helps in seeing the reachability of all the commits as well astracking the 
 6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 When we merge 2 branches together changes made independently are retained and the rest are counterchecked with the parent code. After merging, all the commits are now interleaved and thus will require checking against the parent.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+PROS: Updates and changes can be compared among branches and the ancestor deliberately when automatic, while one is given the authority to choose which simillar changes to take effect over the other when it's manual.
+CONS: Automatic merging may leave out or put back things that are unintended. While manual merging may become a tedious task especially when the conflict is very very small.
